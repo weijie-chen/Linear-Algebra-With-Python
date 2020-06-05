@@ -22,5 +22,5 @@ All the codes are written in a <b>intuitive manner</b> rather than efficient or 
 
 ## Contents (Updating)
 
-1. [Lecture 1 - System of Linear Equations](https://github.com/WeijieChen-MacroAnalyst/LinearAlgebra/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)
-2. [Lecture 2 - Basic Matrix Algebra](https://github.com/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)
+1. [Lecture 1 - System of Linear Equations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)
+2. [Lecture 2 - Basic Matrix Algebra](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)
