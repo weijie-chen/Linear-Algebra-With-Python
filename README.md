@@ -3,14 +3,14 @@ These lecture notes are intended for introductory linear algebra courses, suitab
 
 The lectures notes are loosely based on several textbooks:
 
-1. <b><i>Linear Algebra and Its Applications</i></b> by David Lay 
-2. <b><i>Linear Algebra With Applications</i></b> by Gareth Williams
+1. <b><i>Linear Algebra and Its Applications</i></b> by Gilbert Strang 
+2. <b><i>Linear Algebra and Its Applications</i></b> by David Lay 
 3. <b><i>Introduction to Linear Algebra With Applications</i></b> by DeFranza & Gagliardi
-4. <b><i>Linear Algebra and Its Applications</i></b> by Gilbert Strang 
+4. <b><i>Linear Algebra With Applications</i></b> by Gareth Williams
 
 ![cover-min](https://user-images.githubusercontent.com/59842360/83939172-64df6c00-a7e3-11ea-80b1-058af696d5a3.png)
 
-However, the crux is not to prove all the theorems, but to demonstrate and visualize. Thus we will not engage in strictly precise deduction or notation, rather we aim to clarify the elusive concepts and thanks to Python/MATLAB, the task is much easier now.
+However, the crux of the course is not about proving theorems, but to demonstrate the practice and visualize the concepts. Thus we will not engage in strictly precise deduction or notation, rather we aim to clarify the elusive concepts and thanks to Python/MATLAB, the task is much easier now.
 
 ## Prerequisites
 Though the lectures are for beginners, it is beneficial that attendants had certain amount of exposure to a little linear algebra and calculus before.
@@ -19,8 +19,9 @@ And also the attendants are expected to have basic knowledge (3 days training wo
 - [x] Python
 - [x] NumPy
 - [x] Matplotlib
+- [x] SymPy
 
-All the codes are written in a <b>intuitive manner</b> rather than efficient or professional style, therefore the codes are exceedingly straightforward, I presume no one would have difficulty in following those codes.
+All the codes are written in a <b>intuitive manner</b> rather than efficient or professional coding style, therefore the codes are exceedingly straightforward, I presume barely anyone would have difficulty in following the codes.
 
 ## Contents (Updating)
 
