@@ -8,6 +8,8 @@ The lectures notes are loosely based on several textbooks:
 3. <b><i>Introduction to Linear Algebra With Applications</i></b> by DeFranza & Gagliardi
 4. <b><i>Linear Algebra and Its Applications</i></b> by Gilbert Strang 
 
+![book_cover](https://github.com/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/cover-min.png = 629x200)
+
 However, the crux is not to prove all the theorems, but to demonstrate and visualize. Thus we will not engage in strictly precise deduction or notation, rather we aim to clarify the elusive concepts and thanks to Python/MATLAB, the task is much easier now.
 
 ## Prerequisites
