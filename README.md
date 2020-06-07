@@ -21,7 +21,7 @@ And also the attendants are expected to have basic knowledge (3 days training wo
 - [x] Matplotlib
 - [x] SymPy
 
-All the codes are written in a <b>intuitive manner</b> rather than efficient or professional coding style, therefore the codes are exceedingly straightforward, I presume barely anyone would have difficulty in following the codes.
+All the codes are written in an <b>intuitive manner</b> rather than efficient or professional coding style, therefore the codes are exceedingly straightforward, I presume barely anyone would have difficulty in following the codes.
 
 ## Contents (Updating)
 
