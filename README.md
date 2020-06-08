@@ -30,3 +30,4 @@ All the codes are written in an <b>intuitive manner</b> rather than efficient or
 3. [Lecture 3 - Determinants](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%203%20-%20Determinant.ipynb)
 4. [Lecture 4 - LU Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%204%20-%20LU%20Factorization.ipynb)
 5. [Lecture 5 - Vector Operations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.ipynb)
+6. [Lecture 6 - Linear Combination](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%206%20-%20Linear%20Combination.ipynb)
