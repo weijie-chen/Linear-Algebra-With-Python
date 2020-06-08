@@ -24,6 +24,7 @@ And also the attendants are expected to have basic knowledge (3 days training wo
 All the codes are written in an <b>intuitive manner</b> rather than efficient or professional coding style, therefore the codes are exceedingly straightforward, I presume barely anyone would have difficulty in following the codes.
 
 ## Contents (Updating)
+It is advisable to either open the notebooks in Jupyter nbviewers (links below) or download them, since github has lots of rendering mistakes in LaTeX and sometimes even missing plots.
 
 1. [Lecture 1 - System of Linear Equations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)
 2. [Lecture 2 - Basic Matrix Algebra](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)
