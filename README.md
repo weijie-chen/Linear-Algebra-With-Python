@@ -27,9 +27,9 @@ All the codes are written in an <b>intuitive manner</b> rather than efficient or
 It is advisable to either open the notebooks in Jupyter nbviewers (links below) or download them, since github has lots of rendering mistakes in LaTeX and sometimes even missing plots.
 
 [Lecture 1 - System of Linear Equations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
-[Lecture 2 - Basic Matrix Algebra](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)
-[Lecture 3 - Determinants](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%203%20-%20Determinant.ipynb)
-[Lecture 4 - LU Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%204%20-%20LU%20Factorization.ipynb)
-[Lecture 5 - Vector Operations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.ipynb)
-[Lecture 6 - Linear Combination](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%206%20-%20Linear%20Combination.ipynb)
-[Lecture 7 - Linear Independence](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%207%20-%20Linear%20Independence.ipynb)
+[Lecture 2 - Basic Matrix Algebra](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)<br>
+[Lecture 3 - Determinants](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%203%20-%20Determinant.ipynb)<br>
+[Lecture 4 - LU Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%204%20-%20LU%20Factorization.ipynb)<br>
+[Lecture 5 - Vector Operations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.ipynb)<br>
+[Lecture 6 - Linear Combination](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%206%20-%20Linear%20Combination.ipynb)<br>
+[Lecture 7 - Linear Independence](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%207%20-%20Linear%20Independence.ipynb)<br>
