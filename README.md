@@ -33,3 +33,4 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 5 - Vector Operations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.ipynb)<br>
 [Lecture 6 - Linear Combination](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%206%20-%20Linear%20Combination.ipynb)<br>
 [Lecture 7 - Linear Independence](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%207%20-%20Linear%20Independence.ipynb)<br>
+[Lecture 8 - Vector Space and Subspace](https://github.com/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%208%20-%20Vector%20Space%20and%20Subspace.ipynb)<br>
