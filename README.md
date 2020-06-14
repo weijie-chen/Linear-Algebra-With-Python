@@ -1,4 +1,5 @@
-# Lectures of Linear Algebra
+# Lectures of Linear Algebra [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat)]()  
 These lecture notes are intended for introductory linear algebra courses, suitable for university students, programmers, data analysts, algorithmic traders and etc. 
 
 The lectures notes are loosely based on several textbooks:
@@ -37,6 +38,3 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 9 - Basis and Dimension](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%209%20-%20Basis%20and%20Dimension.ipynb)<br>
 [Lecture 10 - Column, Row and Null Sapce](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2010%20-Null%20Space%20vs%20Col%20Space%2C%20Row%20Space%20and%20Rank.ipynb?flush_cache=true)<br>
 [Lecture 11 - Linear Transformation](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2011%20-%20Linear%20Transformation.ipynb?flush_cache=true)<br>
-
-## License
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
