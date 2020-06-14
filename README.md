@@ -1,5 +1,5 @@
-# Lectures of Linear Algebra [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat)]()  
+# Lectures of Linear Algebra [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
+
 These lecture notes are intended for introductory linear algebra courses, suitable for university students, programmers, data analysts, algorithmic traders and etc. 
 
 The lectures notes are loosely based on several textbooks:
