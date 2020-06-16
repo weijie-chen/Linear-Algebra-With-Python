@@ -39,3 +39,5 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 10 - Column, Row and Null Sapce](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2010%20-Null%20Space%20vs%20Col%20Space%2C%20Row%20Space%20and%20Rank.ipynb?flush_cache=true)<br>
 [Lecture 11 - Linear Transformation](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2011%20-%20Linear%20Transformation.ipynb?flush_cache=true)<br>
 [Lecture 12 - Eigenvalues and Eigenvectors](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2012%20-%20Eigenvalues%20and%20Eigenvectors.ipynb)<br>
+[Lecture 13 - Diagonalization](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2013%20-%20Diagonalization.ipynb)<br>
+[Lecture 14 - Application to Dynamic System](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2014%20-%20Applications%20to%20Dynamic%20System.ipynb)<br>
