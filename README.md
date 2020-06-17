@@ -41,3 +41,4 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 12 - Eigenvalues and Eigenvectors](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2012%20-%20Eigenvalues%20and%20Eigenvectors.ipynb)<br>
 [Lecture 13 - Diagonalization](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2013%20-%20Diagonalization.ipynb)<br>
 [Lecture 14 - Application to Dynamic System](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2014%20-%20Applications%20to%20Dynamic%20System.ipynb)<br>
+[Lecture 15 - Inner Product and Orthogonality](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2015%20-%20Innear%20Product%20and%20Orthogonality.ipynb)<br>
