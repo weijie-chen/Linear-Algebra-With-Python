@@ -45,5 +45,3 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 16 - Gram-Schmidt Process and Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2016%20-%20Gram-Schmidt%20Process%20and%20QR%20Decomposition.ipynb)<br>
 [Lecture 17 - Symmetric Matrices and Quadratic Form](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.ipynb)<br>
 [Lecture 18 - Singular Value Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
-
-https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb
