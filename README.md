@@ -24,7 +24,7 @@ And also the attendants are expected to have basic knowledge (3 days training wo
 
 All the codes are written in an <b>intuitive manner</b> rather than efficient or professional coding style, therefore the codes are exceedingly straightforward, I presume barely anyone would have difficulty in following the codes.
 
-## Contents (Updating)
+## Contents 
 It is advisable to either open the notebooks in Jupyter nbviewers (links below) or download them, since github has lots of rendering mistakes in LaTeX and sometimes even missing plots.
 
 [Lecture 1 - System of Linear Equations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
@@ -45,3 +45,4 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 16 - Gram-Schmidt Process and Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2016%20-%20Gram-Schmidt%20Process%20and%20QR%20Decomposition.ipynb)<br>
 [Lecture 17 - Symmetric Matrices and Quadratic Form](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.ipynb)<br>
 [Lecture 18 - Singular Value Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
+[Lecture 19 - Multivariate Normal Distribution](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.ipynb)<br>
