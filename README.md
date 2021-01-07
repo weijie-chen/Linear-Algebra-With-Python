@@ -11,7 +11,7 @@ The lectures notes are loosely based on several textbooks:
 
 ![cover-min](https://user-images.githubusercontent.com/59842360/83939172-64df6c00-a7e3-11ea-80b1-058af696d5a3.png)
 
-However, the crux of the course is not about proving theorems, but to demonstrate the practice and visualize the concepts. Thus we will not engage in strictly precise deduction or notation, rather we aim to clarify the elusive concepts and thanks to Python/MATLAB, the task is much easier now.
+However, the crux of the course is not about proving theorems, but to demonstrate the practices and visualization of the concepts. Thus we will not engage in strictly precise deduction or notation, rather we aim to clarify the elusive concepts and thanks to Python/MATLAB, the task is much easier now.
 
 ## Prerequisites
 Though the lectures are for beginners, it is beneficial that attendants had certain amount of exposure to a little linear algebra and calculus before.
@@ -23,6 +23,9 @@ And also the attendants are expected to have basic knowledge (3 days training wo
 - [x] SymPy
 
 All the codes are written in an <b>intuitive manner</b> rather than efficient or professional coding style, therefore the codes are exceedingly straightforward, I presume barely anyone would have difficulty in following the codes.
+
+## What to Expect from Notes
+These notes will equip you with most needed and basic knowledge for other subjects, such as Data Science, Econometrics, Mathematical Statistics, Control Theory and etc., which heavily rely on linear algebra. Please go through them patiently, you will certainly have a better grasp of the fundamental concepts of linear algebera. Then further step is to study the special matrices and their application with your domain knowledge.  
 
 ## Contents 
 It is advisable to either open the notebooks in Jupyter nbviewers (links below) or download them, since github has lots of rendering mistakes in LaTeX and sometimes even missing plots.
