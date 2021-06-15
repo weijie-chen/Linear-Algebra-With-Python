@@ -49,3 +49,5 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 17 - Symmetric Matrices and Quadratic Form](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.ipynb)<br>
 [Lecture 18 - Singular Value Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
 [Lecture 19 - Multivariate Normal Distribution](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.ipynb)<br>
+
+If you have any suggestions, please contact me through my personal email: weijiechen00@gmail.com
