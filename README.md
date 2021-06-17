@@ -50,4 +50,9 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 18 - Singular Value Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
 [Lecture 19 - Multivariate Normal Distribution](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.ipynb)<br>
 
+![截图01](https://user-images.githubusercontent.com/59842360/122352881-6b043e80-cf47-11eb-9ca4-8f52c93c0efa.jpg)
+![截图02](https://user-images.githubusercontent.com/59842360/122352920-76576a00-cf47-11eb-9970-c98fe35eedf8.jpg)
+![截图03](https://user-images.githubusercontent.com/59842360/122352926-78212d80-cf47-11eb-9bb4-c33e03b7f085.jpg)
+![截图00](https://user-images.githubusercontent.com/59842360/122352940-7b1c1e00-cf47-11eb-9f80-e26454d4baaf.jpg)
+
 If you have any suggestions, please contact me through my personal email: weijiechen00@gmail.com
