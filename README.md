@@ -55,5 +55,3 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 ![截图02](https://user-images.githubusercontent.com/59842360/122352920-76576a00-cf47-11eb-9970-c98fe35eedf8.jpg)
 ![截图03](https://user-images.githubusercontent.com/59842360/122352926-78212d80-cf47-11eb-9bb4-c33e03b7f085.jpg)
 ![截图00](https://user-images.githubusercontent.com/59842360/122352940-7b1c1e00-cf47-11eb-9f80-e26454d4baaf.jpg)
-
-If you have any suggestions, please contact me through my personal email: weijiechen00@gmail.com
