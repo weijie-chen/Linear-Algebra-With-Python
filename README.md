@@ -30,7 +30,7 @@ These notes will equip you with most needed and basic knowledge for other subjec
 ## Contents 
 It is advisable to either open the notebooks in Jupyter nbviewers (links below) or download them, since github has lots of rendering mistakes in LaTeX and sometimes even missing plots.
 
-[Lecture 1 - System of Linear Equations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
+[Lecture 1 - System of Linear Equations](https://nbviewer.jupyter.org/github/MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
 [Lecture 2 - Basic Matrix Algebra](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)<br>
 [Lecture 3 - Determinants](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%203%20-%20Determinant.ipynb)<br>
 [Lecture 4 - LU Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%204%20-%20LU%20Factorization.ipynb)<br>
