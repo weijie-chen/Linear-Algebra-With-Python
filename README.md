@@ -50,8 +50,12 @@ It is advisable to either open the notebooks in Jupyter nbviewers (links below) 
 [Lecture 18 - Singular Value Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
 [Lecture 19 - Multivariate Normal Distribution](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.ipynb)<br>
 
-## Some Screen Shots Here 
+## Screen Shots Examples
 ![截图01](https://user-images.githubusercontent.com/59842360/122352881-6b043e80-cf47-11eb-9ca4-8f52c93c0efa.jpg)
 ![截图02](https://user-images.githubusercontent.com/59842360/122352920-76576a00-cf47-11eb-9970-c98fe35eedf8.jpg)
 ![截图03](https://user-images.githubusercontent.com/59842360/122352926-78212d80-cf47-11eb-9bb4-c33e03b7f085.jpg)
 ![截图00](https://user-images.githubusercontent.com/59842360/122352940-7b1c1e00-cf47-11eb-9f80-e26454d4baaf.jpg)
+![截图00](https://user-images.githubusercontent.com/59842360/126001287-9f8de290-3940-4000-b5db-7b12d8b70005.jpg)
+![截图01](https://user-images.githubusercontent.com/59842360/126001290-d342db9f-76eb-41ce-98b2-208075bd4640.jpg)
+![截图02](https://user-images.githubusercontent.com/59842360/126001291-5cee0e1b-d02b-4912-9d27-65eaaff13178.jpg)
+
