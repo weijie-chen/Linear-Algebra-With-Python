@@ -1,3 +1,5 @@
+<i>Updated on 26 July 2021</i>
+
 # Lectures of Linear Algebra [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
 
 These lecture notes are intended for introductory linear algebra courses, suitable for university students, programmers, data analysts, algorithmic traders and etc. 
