@@ -1,4 +1,4 @@
-<i>Updated on 26 July 2021</i>
+<mark><i>Updated on 26 July 2021</i></mark>
 
 # Lectures of Linear Algebra [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
 
