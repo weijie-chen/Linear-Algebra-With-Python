@@ -1,4 +1,4 @@
-<font color='purple' size=2.5><i>Updated on 3 August 2021</i></font>
+<font color='purple' size=2.5><i>Updated on 18 Nov 2021</i></font>
 
 # Lectures of Linear Algebra [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
 
