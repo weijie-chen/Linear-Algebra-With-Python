@@ -18,7 +18,7 @@ However, the crux of the course is not about proving theorems, but to demonstrat
 ## Prerequisites
 Though the lectures are for beginners, it is beneficial that attendants had certain amount of exposure to linear algebra and calculus.
 
-And also the attendants are expected to have basic knowledge (3 days training would be enough) of 
+And also the attendee are expected to have basic knowledge (3 days training would be enough) of 
 - [x] Python
 - [x] NumPy
 - [x] Matplotlib
