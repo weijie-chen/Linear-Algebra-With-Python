@@ -29,7 +29,7 @@ All the codes are written in an <b>intuitive manner</b> rather than efficient or
 The notes were written in JupyterLab, the interative plot requires ```ipympl```. To install, type in ```conda install -c conda-forge ipympl``` if you have JupyterLab 3.x. Check <a href='https://github.com/matplotlib/ipympl'><code>ipympl</code>page</a> for more details.
 
 ## What to Expect from Notes
-These notes will equip you with most needed and basic knowledge for other subjects, such as Data Science, Econometrics, Mathematical Statistics, Control Theory and etc., which heavily rely on linear algebra. Please go through them patiently, you will certainly have a better grasp of the fundamental concepts of linear algebera. Then further step is to study the special matrices and their application with your domain knowledge.  
+These notes will equip you with most needed and basic knowledge for other subjects, such as Data Science, Econometrics, Mathematical Statistics, Financial Engineering, Control Theory and etc., which heavily rely on linear algebra. Please go through the tutorial patiently, you will certainly have a better grasp of the fundamental concepts of linear algebera. Then further step is to study the special matrices and their application with your domain knowledge.  
 
 ## Contents 
 It is advisable to either open the notebooks in Jupyter nbviewers (links below) or download them, since github has lots of rendering mistakes in LaTeX and sometimes even missing plots.
