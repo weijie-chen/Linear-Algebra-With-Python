@@ -28,6 +28,17 @@ All the codes are written in an <b>intuitive manner</b> rather than efficient or
 
 The notes were written in JupyterLab, the interative plot requires ```ipympl```. To install, type in ```conda install -c conda-forge ipympl``` if you have JupyterLab 3.x. Check <a href='https://github.com/matplotlib/ipympl'><code>ipympl</code>page</a> for more details.
 
+## Environment Setup
+I use poetry to management environment, if you happen to use VS code like me, please follow the steps below:
+1. In Windows powershell and install poetry ``` (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -p```
+2. Navigate to ```cd $env:APPDATA\Python\Scripts```, check if poetry being installed.
+3. Open a notepad ```notepad $profile``` and set alias for poetry ```Set-Alias poetry "C:\Users\user\AppData\Roaming\Python\Scripts\poetry.exe"``` in notepad, I prefered this way, because sometimes setting env path not working in windows.
+4. Reload profile by ```. $profile```.
+5. If you are on your personal computer ```Set-ExecutionPolicy RemoteSigned -Scope CurrentUser``` to unstrict your execution policy and choose Y.
+6. Resume the default restricted policy for security ```Set-ExecutionPolicy Restricted -Scope CurrentUser```.
+7. Now check ```poetry --version```, if you see the version printed, good to go.
+8. You choose to use ```poetry update```, or just manage version at your own convenience.
+
 ## What to Expect from Notes
 These notes will equip you with most needed and basic knowledge for other subjects, such as Data Science, Econometrics, Mathematical Statistics, Financial Engineering, Control Theory and etc., which heavily rely on linear algebra. Please go through the tutorial patiently, you will certainly have a better grasp of the fundamental concepts of linear algebera. Then further step is to study the special matrices and their application with your domain knowledge.  
 
