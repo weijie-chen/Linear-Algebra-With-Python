@@ -18,31 +18,36 @@ jobs:
       with:
         python-version: '3.12'
 
+    - name: Install Poetry
+      run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo 'export PATH="$HOME/.local/bin:$PATH"' >> $GITHUB_ENV
+          export PATH="$HOME/.local/bin:$PATH"
+
     - name: Install Dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install jupyter nbconvert quarto-cli
+            poetry install
 
     - name: Convert Notebooks to QMD
       run: |
         mkdir -p qmd
         for notebook in $(find . -name "*.ipynb"); do
-          jupyter nbconvert --to markdown --output-dir=qmd "$notebook"
+            poetry run jupyter nbconvert --to markdown --output-dir=qmd "$notebook"
         done
 
     - name: Create Index File
       run: |
         echo "# Index" > qmd/index.qmd
         for file in $(ls qmd/*.md); do
-          title=$(basename "$file" .md)
-          echo "- [$title](./$title.html)" >> qmd/index.qmd
+            title=$(basename "$file" .md)
+            echo "- [$title](./$title.html)" >> qmd/index.qmd
         done
 
     - name: Render QMD Files
       run: |
         mkdir -p rendered
         for qmd in $(find qmd -name "*.qmd"); do
-          quarto render "$qmd" --to html --output-dir rendered
+            poetry run quarto render "$qmd" --to html --output-dir rendered
         done
 
     - name: Move rendered files to docs
