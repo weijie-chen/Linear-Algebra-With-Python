@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "linear-algebra-with-python"
+version = "0.1.0"
+description = ""
+authors = ["weijie-chen <weijiechen00@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+nbconvert = "^7.16.4"
+quarto-cli = "^1.4.555"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
