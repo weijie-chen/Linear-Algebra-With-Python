@@ -44,7 +44,12 @@ jobs:
         done
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
+      run: |
+        rm -rf ./docs
+        mv ./rendered ./docs
+
+    - name: Push changes
+      uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./rendered
+        branch: main
