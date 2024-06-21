@@ -3,7 +3,7 @@ name: Convert and Publish Notebooks
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   convert-and-publish:
