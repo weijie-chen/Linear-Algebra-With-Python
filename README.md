@@ -1,4 +1,4 @@
-<font color='purple' size=2.5><i>Updated on Jan 2023</i></font>
+<font color='purple' size=2.5><i>Updated on Aug 2024</i></font>
 ![Presentation1](https://user-images.githubusercontent.com/59842360/159695863-678be5bc-d146-4340-9592-003ad93241e1.jpg)
 # Lectures of Linear Algebra [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
 
@@ -45,25 +45,25 @@ These notes will equip you with most needed and basic knowledge for other subjec
 ## Contents 
 It is advisable to either open the notebooks in Jupyter nbviewers (links below) or download them, since github has lots of rendering mistakes in LaTeX and sometimes even missing plots.
 
-[Lecture 1 - System of Linear Equations](https://nbviewer.jupyter.org/github/MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
-[Lecture 2 - Basic Matrix Algebra](https://nbviewer.jupyter.org/github/MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)<br>
-[Lecture 3 - Determinants](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%203%20-%20Determinant.ipynb)<br>
-[Lecture 4 - LU Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%204%20-%20LU%20Factorization.ipynb)<br>
-[Lecture 5 - Vector Operations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.ipynb)<br>
-[Lecture 6 - Linear Combination](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%206%20-%20Linear%20Combination.ipynb)<br>
-[Lecture 7 - Linear Independence](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%207%20-%20Linear%20Independence.ipynb)<br>
-[Lecture 8 - Vector Space and Subspace](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%208%20-%20Vector%20Space%20and%20Subspace.ipynb)<br>
-[Lecture 9 - Basis and Dimension](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%209%20-%20Basis%20and%20Dimension.ipynb)<br>
-[Lecture 10 - Column, Row and Null Space](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2010%20-Null%20Space%20vs%20Col%20Space%2C%20Row%20Space%20and%20Rank.ipynb?flush_cache=true)<br>
-[Lecture 11 - Linear Transformation](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2011%20-%20Linear%20Transformation.ipynb?flush_cache=true)<br>
-[Lecture 12 - Eigenvalues and Eigenvectors](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2012%20-%20Eigenvalues%20and%20Eigenvectors.ipynb)<br>
-[Lecture 13 - Diagonalization](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2013%20-%20Diagonalization.ipynb)<br>
-[Lecture 14 - Application to Dynamic System](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2014%20-%20Applications%20to%20Dynamic%20System.ipynb)<br>
-[Lecture 15 - Inner Product and Orthogonality](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2015%20-%20Innear%20Product%20and%20Orthogonality.ipynb)<br>
-[Lecture 16 - Gram-Schmidt Process and Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2016%20-%20Gram-Schmidt%20Process%20and%20QR%20Decomposition.ipynb)<br>
-[Lecture 17 - Symmetric Matrices and Quadratic Form](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.ipynb)<br>
-[Lecture 18 - Singular Value Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
-[Lecture 19 - Multivariate Normal Distribution](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.ipynb)<br>
+[Lecture 1 - System of Linear Equations](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
+[Lecture 2 - Basic Matrix Algebra](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)<br>
+[Lecture 3 - Determinants](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%203%20-%20Determinant.ipynb)<br>
+[Lecture 4 - LU Decomposition](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%204%20-%20LU%20Factorization.ipynb)<br>
+[Lecture 5 - Vector Operations](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.ipynb)<br>
+[Lecture 6 - Linear Combination](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%206%20-%20Linear%20Combination.ipynb)<br>
+[Lecture 7 - Linear Independence](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%207%20-%20Linear%20Independence.ipynb)<br>
+[Lecture 8 - Vector Space and Subspace](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%208%20-%20Vector%20Space%20and%20Subspace.ipynb)<br>
+[Lecture 9 - Basis and Dimension](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%209%20-%20Basis%20and%20Dimension.ipynb)<br>
+[Lecture 10 - Column, Row and Null Space](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2010%20-Null%20Space%20vs%20Col%20Space%2C%20Row%20Space%20and%20Rank.ipynb?flush_cache=true)<br>
+[Lecture 11 - Linear Transformation](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2011%20-%20Linear%20Transformation.ipynb?flush_cache=true)<br>
+[Lecture 12 - Eigenvalues and Eigenvectors](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2012%20-%20Eigenvalues%20and%20Eigenvectors.ipynb)<br>
+[Lecture 13 - Diagonalization](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2013%20-%20Diagonalization.ipynb)<br>
+[Lecture 14 - Application to Dynamic System](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2014%20-%20Applications%20to%20Dynamic%20System.ipynb)<br>
+[Lecture 15 - Inner Product and Orthogonality](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2015%20-%20Innear%20Product%20and%20Orthogonality.ipynb)<br>
+[Lecture 16 - Gram-Schmidt Process and Decomposition](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2016%20-%20Gram-Schmidt%20Process%20and%20QR%20Decomposition.ipynb)<br>
+[Lecture 17 - Symmetric Matrices and Quadratic Form](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.ipynb)<br>
+[Lecture 18 - Singular Value Decomposition](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
+[Lecture 19 - Multivariate Normal Distribution](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.ipynb)<br>
 
 ## Screen Shots Examples
 ![截图01](https://user-images.githubusercontent.com/59842360/122352881-6b043e80-cf47-11eb-9ca4-8f52c93c0efa.jpg)
