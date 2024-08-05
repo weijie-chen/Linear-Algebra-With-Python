@@ -1,0 +1,36 @@
+name: Update README
+
+on: 
+  push:
+    branches:
+      - main  # or the branch you want to trigger the workflow
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+  
+
+      - name: Setup Python
+        uses: actions/setup-python@v5.1.1
+    
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Update README.md
+        run: |
+          python scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m "Update README date and links"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
