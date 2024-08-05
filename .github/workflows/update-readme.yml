@@ -3,7 +3,7 @@ name: Update README
 on: 
   push:
     branches:
-      - main  # or the branch you want to trigger the workflow
+      - master  # this repo called master, because created before 2020
 
 jobs:
   update-readme:
