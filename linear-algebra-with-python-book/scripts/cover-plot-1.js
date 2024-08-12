@@ -2,7 +2,7 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@v0.167.0/build/three.
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@v0.167.0/examples/jsm/controls/OrbitControls.js';
 
 // Get the container element
-const container = document.getElementById('scene-container');
+const container = document.getElementById('title-page-container');
 
 // Create the scene
 let scene = new THREE.Scene();
@@ -18,6 +18,8 @@ container.appendChild(renderer.domElement);
 
 // Add orbit controls for mouse interaction
 let controls = new OrbitControls(camera, renderer.domElement);
+controls.enableZoom = false; // Disable zooming with the mouse wheel
+controls.enablePan = false;  // Optional: Disable panning
 
 // Create a geometry
 let geometry = new THREE.SphereGeometry(2.3, 128, 128);
