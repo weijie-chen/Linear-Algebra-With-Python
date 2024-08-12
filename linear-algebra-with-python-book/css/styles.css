@@ -1,0 +1,57 @@
+
+* {
+    margin: 0; /* Always Remove global margin */
+    padding: 0; /* Always Remove global padding */
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', 'Poppins', 'Roboto', sans-serif;
+}
+:root {
+    --bg-color: #161616;
+    --second-bg-color: #182538;
+    --text-color: #e3e3e3ed;
+    --main-color: #00ffee;
+    --dark-slate-blue: #253B59;
+    --medium-sky-blue: #14B5D9;
+    --light-brown: #A6763C;
+    --vermilion: #F2441D;
+    --light-coral: #F29985;
+    --dark-purple: #711c91;
+    --vivid-magenta: #ea00d9;
+    --alternate-magenta: #BD249B;
+    --bright-cyan: #0abdc6;
+    --dark-cerulean-blue: #133e7c;
+    --midnight-blue: #091833;
+    --profile-background: #19999C;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--text-color);
+}
+
+#scene-container {
+    width: 100%;
+    height: 80vh;
+    background-color: var(--bg-color);
+}
+
+#author-name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#author-name h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: normal;
+}
