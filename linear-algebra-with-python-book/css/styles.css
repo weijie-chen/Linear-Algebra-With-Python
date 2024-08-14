@@ -90,7 +90,7 @@ body {
     cursor: pointer;
 }
 
-/* Article styling */
+/* introduction */
 .introduction {
     display: flex;
     flex-direction: column;
@@ -99,9 +99,7 @@ body {
     color: var(--text-color);
     background-color: var(--second-bg-color);
     border-radius: 10px;
-}
-
-/* Smooth transition for fixed elements */
-#book-cover {
-    transition: top 0.5s ease-in-out;
+    margin: 20px auto 0 auto; /* Center the section horizontally */
+    max-width: 900px; /* Limit the width of the section */
+    line-height: 1.6;
 }
