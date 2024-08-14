@@ -3,7 +3,7 @@ name: Update README
 on: 
   push:
     branches:
-      - master  # this repo called master, because created before 2020
+      - master  # This repo is using 'master' as the main branch name
 
 jobs:
   update-readme:
@@ -12,18 +12,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.7
-  
 
       - name: Setup Python
         uses: actions/setup-python@v5.1.1
-    
 
       - name: Install dependencies
         run: pip install pyyaml
 
       - name: Update README.md
+        run: python scripts/update_readme.py
+
+      - name: Check if README.md has changed
         run: |
-          python scripts/update_readme.py
+          if git diff --quiet README.md; then
+            echo "No changes to commit.";
+            exit 0;
+          fi
 
       - name: Commit and push changes
         run: |
