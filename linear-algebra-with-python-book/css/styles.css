@@ -27,48 +27,81 @@
     --midnight-blue: #091833;
     --profile-background: #19999C;
 }
-body {
-    margin: 0;
-    padding: 0;
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--profile-background);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
     background-color: var(--bg-color);
+    width: 50px;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow-y: scroll; /* Ensure vertical scrolling is enabled */
+}
+/* Section styling for book cover */
+#book-cover {
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: var(--text-color);
-}
-
-#title-page-container {
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start; /* Start aligning elements from the top */
+    align-items: center; /* Center content horizontally */
+    /* position: fixed; */
+    top: 0;
+    left: 0;
     background-color: var(--bg-color);
-    position: relative;
-    top: -100px; /* Adjust this value to move the container up */
+    z-index: 1;
 }
 
-#author-name {
-    text-align: center;
-    margin-top: 20px;
-    text-transform: uppercase;
-    position: relative;
-    top: -50px; /* Adjust this value to move the author name up */
+/* Title page container styling */
+#title-page-container {
+    width: 100%; /* Make sure it spans the entire width */
+    height: 60vh; /* Still use 60vh to keep height proportional */
+    display: flex;
+    justify-content: center; /* Center content horizontally within this container */
+    align-items: center; /* Center content vertically */
+    background-color: var(--second-bg-color);
 }
 
-#author-name h1 {
-    font-size: 3em;
-    margin: 0;
-    font-weight: normal;
-}
-
+/* Book cover title styling */
 .book-cover-title {
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 2.8em;
     color: var(--text-color);
+    margin-top: 5rem;
+}
+
+/* Author name styling */
+#author-name {
+    text-transform: uppercase;
+    font-size: 1.2em;
     text-align: center;
-    position: relative;
-    top: -60px; /* Adjust this value to move the title up */
+    margin-top: 2.5rem;
+}
+
+/* Bright/Dark switch styling */
+.bright-dark-switch {
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Article styling */
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: var(--text-color);
+    background-color: var(--second-bg-color);
+    border-radius: 10px;
+}
+
+/* Smooth transition for fixed elements */
+#book-cover {
+    transition: top 0.5s ease-in-out;
 }
