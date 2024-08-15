@@ -55,4 +55,4 @@ jobs:
         git add linear-algebra-with-python-book/chapters/*
         git add linear-algebra-with-python-book/index.html
         git commit -m "Updated chapters and Table of Contents"
-        git push
+        git push https://$GITHUB_ACTOR:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/weijie-chen/weijie-chen.github.io.git
