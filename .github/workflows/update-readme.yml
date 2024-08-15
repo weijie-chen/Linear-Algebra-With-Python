@@ -23,13 +23,12 @@ jobs:
         run: python scripts/update_readme.py
 
       - name: Check if README.md has changed
+        id: readme_diff
         run: |
-          if git diff --quiet README.md; then
-            echo "No changes to commit.";
-            exit 0;
-          fi
+          git diff README.md || echo "README_CHANGED=true" >> $GITHUB_ENV
 
       - name: Commit and push changes
+        if: env.README_CHANGED == 'true'
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
