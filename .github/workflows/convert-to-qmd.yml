@@ -22,7 +22,8 @@ jobs:
     - name: Convert Notebooks to QMD
       run: |
         mkdir -p converted_chapters
-        for notebook in notebooks/*.ipynb; do
+        cd converted_chapters
+        for notebook in ./notebooks/*.ipynb; do
           quarto convert "$notebook"
         done
 
