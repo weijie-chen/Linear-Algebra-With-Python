@@ -22,9 +22,8 @@ jobs:
     - name: Convert Notebooks to QMD
       run: |
         mkdir -p converted_chapters
-        cd converted_chapters
-        for notebook in ./notebooks/*.ipynb; do
-          quarto convert "$notebook"
+        for notebook in notebooks/*.ipynb; do
+          quarto convert "$notebook" -o "converted_chapters/$(basename "$notebook" .ipynb).qmd"
         done
 
     - name: Checkout the weijie-chen.github.io repository
