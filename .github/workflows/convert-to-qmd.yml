@@ -49,10 +49,10 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        cd book_repo
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        git add linear-algebra-with-python-book/chapters/*
-        git add linear-algebra-with-python-book/index.html
-        git commit -m "Updated chapters and Table of Contents"
-        git push https://$GITHUB_ACTOR:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/weijie-chen/weijie-chen.github.io.git
+          cd book_repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add linear-algebra-with-python-book/chapters/*
+          git add linear-algebra-with-python-book/index.html
+          git commit -m "Updated chapters and Table of Contents"
+          git push https://$GITHUB_ACTOR:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/weijie-chen/weijie-chen.github.io.git      
