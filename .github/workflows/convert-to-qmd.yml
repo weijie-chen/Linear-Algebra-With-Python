@@ -9,7 +9,8 @@ jobs:
   convert-and-copy:
     runs-on: ubuntu-latest
 
-    permissions: write-all
+    permissions:
+      contents: write  # Ensure the job has write permissions
 
     steps:
     - name: Checkout the Linear_Algebra_with_Python repository
@@ -49,10 +50,12 @@ jobs:
         sed -i '/<section class="table-of-contents">/,/<\/section>/{//!d}' book_repo/linear-algebra-with-python-book/index.html
         sed -i "/<section class=\"table-of-contents\">/a $toc" book_repo/linear-algebra-with-python-book/index.html
 
-    - name: Remove extraheader to avoid conflicts with PAT
-      run: git config --unset-all http.https://github.com/.extraheader
-    
-    - name: Commit and Push Changes
+    - name: Set up SSH Agent
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Commit and Push Changes via SSH
       run: |
         cd book_repo
         git config user.name "GitHub Actions"
@@ -60,4 +63,4 @@ jobs:
         git add linear-algebra-with-python-book/chapters/*
         git add linear-algebra-with-python-book/index.html
         git commit -m "Updated chapters and Table of Contents"
-        git push origin main:master
+        git push git@github.com:weijie-chen/weijie-chen.github.io.git main
