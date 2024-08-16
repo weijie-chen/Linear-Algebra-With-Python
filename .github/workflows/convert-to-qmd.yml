@@ -60,4 +60,4 @@ jobs:
         git add linear-algebra-with-python-book/chapters/*
         git add linear-algebra-with-python-book/index.html
         git commit -m "Updated chapters and Table of Contents"
-        git push origin master
+        git push origin main
