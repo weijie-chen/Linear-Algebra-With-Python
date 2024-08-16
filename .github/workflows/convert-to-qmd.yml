@@ -39,6 +39,10 @@ jobs:
       run: |
         eval "$(ssh-agent -s)"
         ssh-add /tmp/github_actions
+    
+    - name: Debug SSH Key
+      run: ssh-add -l
+      
 
     - name: Add Deploy Key to GitHub
       id: add_deploy_key
