@@ -33,6 +33,8 @@ jobs:
       with:
         repository: weijie-chen/weijie-chen.github.io
         path: book_repo
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
 
     - name: Copy Converted QMD Files to Book Repository
       run: |
