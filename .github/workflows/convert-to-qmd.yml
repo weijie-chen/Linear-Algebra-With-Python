@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Grant permissions to write content to the repository
+      contents: write  # Ensure the job has write permissions
 
     steps:
     - name: Checkout the Linear_Algebra_with_Python repository
@@ -50,10 +50,8 @@ jobs:
         sed -i '/<section class="table-of-contents">/,/<\/section>/{//!d}' book_repo/linear-algebra-with-python-book/index.html
         sed -i "/<section class=\"table-of-contents\">/a $toc" book_repo/linear-algebra-with-python-book/index.html
 
-    - name: Set up Git remote with PAT
-      run: |
-        cd book_repo
-        git remote set-url origin https://$GITHUB_ACTOR:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/weijie-chen/weijie-chen.github.io.git
+    - name: Remove extraheader to avoid conflicts with PAT
+      run: git config --unset-all http.https://github.com/.extraheader
     
     - name: Commit and Push Changes
       run: |
@@ -63,4 +61,4 @@ jobs:
         git add linear-algebra-with-python-book/chapters/*
         git add linear-algebra-with-python-book/index.html
         git commit -m "Updated chapters and Table of Contents"
-        git push origin main:master
+        git push origin main
