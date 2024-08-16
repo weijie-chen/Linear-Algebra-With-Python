@@ -6,6 +6,8 @@ on:
       - 'notebooks/**.ipynb'
 
 jobs:
+  permissions:
+    contents: write
   convert-and-copy:
     runs-on: ubuntu-latest
 
@@ -53,6 +55,7 @@ jobs:
         git remote set-url origin https://$GITHUB_ACTOR:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/weijie-chen/weijie-chen.github.io.git
     
     - name: Commit and Push Changes
+      
       run: |
         cd book_repo
         git config user.name "GitHub Actions"
