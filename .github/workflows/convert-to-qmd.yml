@@ -9,7 +9,7 @@ jobs:
   convert-and-copy:
     runs-on: ubuntu-latest
 
-    permissions: write-all
+    # permissions: write-all
 
     steps:
     - name: Checkout the Linear_Algebra_with_Python repository
