@@ -41,7 +41,7 @@ I use poetry to management environment, if you happen to use VS code like me, pl
 These notes will equip you with most needed and basic knowledge for other subjects, such as Data Science, Econometrics, Mathematical Statistics, Financial Engineering, Control Theory and etc., which heavily rely on linear algebra. Please go through the tutorial patiently, you will certainly have a better grasp of the fundamental concepts of linear algebera. Then further step is to study the special matrices and their application with your domain knowledge.  
 
 ## Contents
-Please access my webiste for better reading experience: [Linear Algebra for Python](https://www.weijiechen.com/linear-algebra-with-python-book/linear-algebra-index.html)
+Please access my webiste for better reading experience: [Linear Algebra for Python](https://www.weijiechen.com/linear-algebra-with-python-book/linear-algebra-index.html)<br>
 [Chapter 1 - Linear Equation System](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%201%20-%20Linear%20Equation%20System.html)<br>
 [Chapter 2 - Basic Matrix Algebra](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%202%20-%20Basic%20Matrix%20Algebra.html)<br>
 [Chapter 3 - Determinant](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%203%20-%20Determinant.html)<br>
