@@ -26,8 +26,6 @@ And also the attendee are expected to have basic knowledge (3 days training woul
 
 All the codes are written in an <b>intuitive manner</b> rather than efficient or professional coding style, therefore the codes are exceedingly straightforward, I presume barely anyone would have difficulty in understanding the codes.
 
-The notes were written in JupyterLab, the interative plot requires ```ipympl```. To install, type in ```conda install -c conda-forge ipympl``` if you have JupyterLab 3.x. Check <a href='https://github.com/matplotlib/ipympl'><code>ipympl</code>page</a> for more details.
-
 ## Environment Setup
 I use poetry to management environment, if you happen to use VS code like me, please follow the steps below:
 1. In Windows powershell and install poetry ``` (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -p```
@@ -43,7 +41,7 @@ I use poetry to management environment, if you happen to use VS code like me, pl
 These notes will equip you with most needed and basic knowledge for other subjects, such as Data Science, Econometrics, Mathematical Statistics, Financial Engineering, Control Theory and etc., which heavily rely on linear algebra. Please go through the tutorial patiently, you will certainly have a better grasp of the fundamental concepts of linear algebera. Then further step is to study the special matrices and their application with your domain knowledge.  
 
 ## Contents
-
+Please access my webiste for better reading experience: [Linear Algebra for Python](https://www.weijiechen.com/linear-algebra-with-python-book/linear-algebra-index.html)
 [Chapter 1 - Linear Equation System](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
 [Chapter 2 - Basic Matrix Algebra](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)<br>
 [Chapter 3 - Determinant](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%203%20-%20Determinant.ipynb)<br>
