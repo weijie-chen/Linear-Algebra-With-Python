@@ -15,7 +15,7 @@ updated_date = datetime.now().strftime("<font color='purple' size=2.5><i>Updated
 content = re.sub(r"<font color='purple' size=2.5><i>Updated on .*</i></font>", updated_date, content)
 
 # Define the new base URL for nbviewer links
-new_base_url = "https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks"
+new_base_url = "https://www.weijiechen.com/linear-algebra-with-python-book/qmd/"
 
 # Function to generate new lecture link
 def generate_lecture_link(filename):
