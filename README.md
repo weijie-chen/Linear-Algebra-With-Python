@@ -42,26 +42,26 @@ These notes will equip you with most needed and basic knowledge for other subjec
 
 ## Contents
 Please access my webiste for better reading experience: [Linear Algebra for Python](https://www.weijiechen.com/linear-algebra-with-python-book/linear-algebra-index.html)
-[Chapter 1 - Linear Equation System](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
-[Chapter 2 - Basic Matrix Algebra](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)<br>
-[Chapter 3 - Determinant](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%203%20-%20Determinant.ipynb)<br>
-[Chapter 4 - LU Factorization](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%204%20-%20LU%20Factorization.ipynb)<br>
-[Chapter 5 - Vector Addition, Subtraction and Scalar Multiplication](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.ipynb)<br>
-[Chapter 6 - Linear Combination](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%206%20-%20Linear%20Combination.ipynb)<br>
-[Chapter 7 - Linear Independence](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%207%20-%20Linear%20Independence.ipynb)<br>
-[Chapter 8 - Vector Space and Subspace](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%208%20-%20Vector%20Space%20and%20Subspace.ipynb)<br>
-[Chapter 9 - Basis and Dimension](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%209%20-%20Basis%20and%20Dimension.ipynb)<br>
-[Chapter 10 -Null Space vs Col Space, Row Space and Rank](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2010%20-Null%20Space%20vs%20Col%20Space%2C%20Row%20Space%20and%20Rank.ipynb)<br>
-[Chapter 11 - Linear Transformation](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2011%20-%20Linear%20Transformation.ipynb)<br>
-[Chapter 12 - Eigenvalues and Eigenvectors](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2012%20-%20Eigenvalues%20and%20Eigenvectors.ipynb)<br>
-[Chapter 13b - Principal Component Analysis](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2013b%20-%20Principal%20Component%20Analysis.ipynb)<br>
-[Chapter 13a - Diagonalization](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2013a%20-%20Diagonalization.ipynb)<br>
-[Chapter 14 - Applications to Dynamic System](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2014%20-%20Applications%20to%20Dynamic%20System.ipynb)<br>
-[Chapter 15 - Innear Product and Orthogonality](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2015%20-%20Innear%20Product%20and%20Orthogonality.ipynb)<br>
-[Chapter 16 - Gram-Schmidt Process and QR Decomposition](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2016%20-%20Gram-Schmidt%20Process%20and%20QR%20Decomposition.ipynb)<br>
-[Chapter 17 - Symmetric Matrices , Quadratic Form and Cholesky Decomposition](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.ipynb)<br>
-[Chapter 18 - The Singular Value Decomposition](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
-[Chapter 19 - Multivariate Normal Distribution](https://nbviewer.org/github/weijie-chen/Linear-Algebra-With-Python/blob/master/notebooks/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.ipynb)<br>
+[Chapter 1 - Linear Equation System](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%201%20-%20Linear%20Equation%20System.html)<br>
+[Chapter 2 - Basic Matrix Algebra](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%202%20-%20Basic%20Matrix%20Algebra.html)<br>
+[Chapter 3 - Determinant](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%203%20-%20Determinant.html)<br>
+[Chapter 4 - LU Factorization](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%204%20-%20LU%20Factorization.html)<br>
+[Chapter 5 - Vector Addition, Subtraction and Scalar Multiplication](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.html)<br>
+[Chapter 6 - Linear Combination](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%206%20-%20Linear%20Combination.html)<br>
+[Chapter 7 - Linear Independence](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%207%20-%20Linear%20Independence.html)<br>
+[Chapter 8 - Vector Space and Subspace](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%208%20-%20Vector%20Space%20and%20Subspace.html)<br>
+[Chapter 9 - Basis and Dimension](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%209%20-%20Basis%20and%20Dimension.html)<br>
+[Chapter 10 -Null Space vs Col Space, Row Space and Rank](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2010%20-Null%20Space%20vs%20Col%20Space%2C%20Row%20Space%20and%20Rank.html)<br>
+[Chapter 11 - Linear Transformation](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2011%20-%20Linear%20Transformation.html)<br>
+[Chapter 12 - Eigenvalues and Eigenvectors](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2012%20-%20Eigenvalues%20and%20Eigenvectors.html)<br>
+[Chapter 13b - Principal Component Analysis](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2013b%20-%20Principal%20Component%20Analysis.html)<br>
+[Chapter 13a - Diagonalization](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2013a%20-%20Diagonalization.html)<br>
+[Chapter 14 - Applications to Dynamic System](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2014%20-%20Applications%20to%20Dynamic%20System.html)<br>
+[Chapter 15 - Innear Product and Orthogonality](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2015%20-%20Innear%20Product%20and%20Orthogonality.html)<br>
+[Chapter 16 - Gram-Schmidt Process and QR Decomposition](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2016%20-%20Gram-Schmidt%20Process%20and%20QR%20Decomposition.html)<br>
+[Chapter 17 - Symmetric Matrices , Quadratic Form and Cholesky Decomposition](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.html)<br>
+[Chapter 18 - The Singular Value Decomposition](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.html)<br>
+[Chapter 19 - Multivariate Normal Distribution](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.html)<br>
 
 ## Screen Shots Examples
 ![截图01](https://user-images.githubusercontent.com/59842360/122352881-6b043e80-cf47-11eb-9ca4-8f52c93c0efa.jpg)
