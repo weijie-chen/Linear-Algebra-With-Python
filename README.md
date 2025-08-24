@@ -1,6 +1,6 @@
-<font color='purple' size=2.5><i>Updated on Jan 2023</i></font>
+<font color='purple' size=2.5><i>Updated on Aug 2024</i></font>
 ![Presentation1](https://user-images.githubusercontent.com/59842360/159695863-678be5bc-d146-4340-9592-003ad93241e1.jpg)
-# Lectures of Linear Algebra [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
+# Lectures of Linear Algebra
 
 These lecture notes are intended for introductory linear algebra courses, suitable for university students, programmers, data analysts, algorithmic traders and etc. 
 
@@ -26,8 +26,6 @@ And also the attendee are expected to have basic knowledge (3 days training woul
 
 All the codes are written in an <b>intuitive manner</b> rather than efficient or professional coding style, therefore the codes are exceedingly straightforward, I presume barely anyone would have difficulty in understanding the codes.
 
-The notes were written in JupyterLab, the interative plot requires ```ipympl```. To install, type in ```conda install -c conda-forge ipympl``` if you have JupyterLab 3.x. Check <a href='https://github.com/matplotlib/ipympl'><code>ipympl</code>page</a> for more details.
-
 ## Environment Setup
 I use poetry to management environment, if you happen to use VS code like me, please follow the steps below:
 1. In Windows powershell and install poetry ``` (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -p```
@@ -42,28 +40,28 @@ I use poetry to management environment, if you happen to use VS code like me, pl
 ## What to Expect from Notes
 These notes will equip you with most needed and basic knowledge for other subjects, such as Data Science, Econometrics, Mathematical Statistics, Financial Engineering, Control Theory and etc., which heavily rely on linear algebra. Please go through the tutorial patiently, you will certainly have a better grasp of the fundamental concepts of linear algebera. Then further step is to study the special matrices and their application with your domain knowledge.  
 
-## Contents 
-It is advisable to either open the notebooks in Jupyter nbviewers (links below) or download them, since github has lots of rendering mistakes in LaTeX and sometimes even missing plots.
-
-[Lecture 1 - System of Linear Equations](https://nbviewer.jupyter.org/github/MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%201%20-%20Linear%20Equation%20System.ipynb)<br>
-[Lecture 2 - Basic Matrix Algebra](https://nbviewer.jupyter.org/github/MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%202%20-%20Basic%20Matrix%20Algebra.ipynb)<br>
-[Lecture 3 - Determinants](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%203%20-%20Determinant.ipynb)<br>
-[Lecture 4 - LU Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/LinearAlgebraLectures/blob/master/Chapter%204%20-%20LU%20Factorization.ipynb)<br>
-[Lecture 5 - Vector Operations](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.ipynb)<br>
-[Lecture 6 - Linear Combination](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%206%20-%20Linear%20Combination.ipynb)<br>
-[Lecture 7 - Linear Independence](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%207%20-%20Linear%20Independence.ipynb)<br>
-[Lecture 8 - Vector Space and Subspace](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%208%20-%20Vector%20Space%20and%20Subspace.ipynb)<br>
-[Lecture 9 - Basis and Dimension](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%209%20-%20Basis%20and%20Dimension.ipynb)<br>
-[Lecture 10 - Column, Row and Null Space](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2010%20-Null%20Space%20vs%20Col%20Space%2C%20Row%20Space%20and%20Rank.ipynb?flush_cache=true)<br>
-[Lecture 11 - Linear Transformation](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2011%20-%20Linear%20Transformation.ipynb?flush_cache=true)<br>
-[Lecture 12 - Eigenvalues and Eigenvectors](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2012%20-%20Eigenvalues%20and%20Eigenvectors.ipynb)<br>
-[Lecture 13 - Diagonalization](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2013%20-%20Diagonalization.ipynb)<br>
-[Lecture 14 - Application to Dynamic System](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2014%20-%20Applications%20to%20Dynamic%20System.ipynb)<br>
-[Lecture 15 - Inner Product and Orthogonality](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2015%20-%20Innear%20Product%20and%20Orthogonality.ipynb)<br>
-[Lecture 16 - Gram-Schmidt Process and Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2016%20-%20Gram-Schmidt%20Process%20and%20QR%20Decomposition.ipynb)<br>
-[Lecture 17 - Symmetric Matrices and Quadratic Form](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.ipynb)<br>
-[Lecture 18 - Singular Value Decomposition](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.ipynb)<br>
-[Lecture 19 - Multivariate Normal Distribution](https://nbviewer.jupyter.org/github/WeijieChen-MacroAnalyst/Linear_Algebra_With_Python/blob/master/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.ipynb)<br>
+## Contents
+Please access my webiste for better reading experience: [Linear Algebra for Python](https://www.weijiechen.com/linear-algebra-with-python-book/linear-algebra-index.html)<br>
+[Chapter 1 - Linear Equation System](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%201%20-%20Linear%20Equation%20System.html)<br>
+[Chapter 2 - Basic Matrix Algebra](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%202%20-%20Basic%20Matrix%20Algebra.html)<br>
+[Chapter 3 - Determinant](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%203%20-%20Determinant.html)<br>
+[Chapter 4 - LU Factorization](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%204%20-%20LU%20Factorization.html)<br>
+[Chapter 5 - Vector Addition, Subtraction and Scalar Multiplication](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%205%20-%20Vector%20Addition%2C%20Subtraction%20and%20Scalar%20Multiplication.html)<br>
+[Chapter 6 - Linear Combination](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%206%20-%20Linear%20Combination.html)<br>
+[Chapter 7 - Linear Independence](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%207%20-%20Linear%20Independence.html)<br>
+[Chapter 8 - Vector Space and Subspace](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%208%20-%20Vector%20Space%20and%20Subspace.html)<br>
+[Chapter 9 - Basis and Dimension](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%209%20-%20Basis%20and%20Dimension.html)<br>
+[Chapter 10 -Null Space vs Col Space, Row Space and Rank](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2010%20-Null%20Space%20vs%20Col%20Space%2C%20Row%20Space%20and%20Rank.html)<br>
+[Chapter 11 - Linear Transformation](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2011%20-%20Linear%20Transformation.html)<br>
+[Chapter 12 - Eigenvalues and Eigenvectors](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2012%20-%20Eigenvalues%20and%20Eigenvectors.html)<br>
+[Chapter 13b - Principal Component Analysis](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2013b%20-%20Principal%20Component%20Analysis.html)<br>
+[Chapter 13a - Diagonalization](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2013a%20-%20Diagonalization.html)<br>
+[Chapter 14 - Applications to Dynamic System](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2014%20-%20Applications%20to%20Dynamic%20System.html)<br>
+[Chapter 15 - Innear Product and Orthogonality](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2015%20-%20Innear%20Product%20and%20Orthogonality.html)<br>
+[Chapter 16 - Gram-Schmidt Process and QR Decomposition](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2016%20-%20Gram-Schmidt%20Process%20and%20QR%20Decomposition.html)<br>
+[Chapter 17 - Symmetric Matrices , Quadratic Form and Cholesky Decomposition](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2017%20-%20Symmetric%20Matrices%20%2C%20Quadratic%20Form%20and%20Cholesky%20Decomposition.html)<br>
+[Chapter 18 - The Singular Value Decomposition](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2018%20-%20The%20Singular%20Value%20Decomposition.html)<br>
+[Chapter 19 - Multivariate Normal Distribution](https://www.weijiechen.com/linear-algebra-with-python-book/qmd/Chapter%2019%20-%20Multivariate%20Normal%20Distribution.html)<br>
 
 ## Screen Shots Examples
 ![截图01](https://user-images.githubusercontent.com/59842360/122352881-6b043e80-cf47-11eb-9ca4-8f52c93c0efa.jpg)

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async
+      src="https://www.googletagmanager.com/gtag/js?id=G-829EFSD7Q5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-829EFSD7Q5');
+        </script>
+
+    <title> Linear Algebra With Python </title>
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <!-- <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main info: Dublin core -->
+    <meta name="DC.Title" content="Linear Algebra With Python">
+    <meta name="DC.Creator" content="Weijie Chen">
+    <meta name="DC.Type" content="Interactive Resource">
+    <meta name="DC.Format" content="HTML">
+    <meta name="DC.Language" content="en-US">
+    <meta name="DC.Rights"
+      content="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+
+    <!-- social media cards -->
+    <meta property="og:title" content="Linear Algebra With Python">
+    <meta property="og:description"
+      content="An online interactive introduction to the study of linear algebra.">
+    <!-- <meta property="og:url" content="https://complex-analysis.com/"> -->
+    <!-- <meta property="og:image"
+      content="https://complex-analysis.com/images/complex_analysis_card.jpg"> -->
+    <meta property="og:site_name" content="Linear Algebra With Python">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="images/infinity32.png"
+      sizes="32x32">
+    <link rel="icon" type="image/png" href="images/infinity16.png"
+      sizes="16x16">
+
+    <link rel="stylesheet" href="content/css/style.css">
+
+  </head>
+
+  <body data-type="book" id="top">
+
+    <!-- Main DIV Starts here -->
+    <div class="container">
+      <section data-type="chapter" id="index">
+
+        <!-- Starts main content -->
+
+        <header>
+
+          <div>
+
+            <div class="hide-small hide-medium" id="title-page-animation">
+              <script src="applets/perlin-noise-ball.js"></script>
+              <br>
+              <iframe frameborder="0" width="800px" height="400px"
+                scrolling="no" src="applets/p5js/joukowsky/intro.html"
+                style="border: 1px solid black; overflow: hidden;">
+              </iframe>
+            </div>
+
+            <div class="hide-large ">
+              <br><br>
+              <img width="100%"
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP3eKwgEWJyXPaQoaywHwOTkfeEqu2NXxpYJW1RSjOikjsWAJhq4cnTUFJhOCi71XplIlf7llqI1qcyP5rkRp9Qd6L94vrboAinrBLOCfzsK02Camre4MjicGzkY45aUNJJ5v4IuOMuqNKTnSHxBCtwB-_KGcRkZ9ZK5gVp8azqhRHqYI/s1600/complex_prev.gif">
+            </div>
+            <div class>
+
+              <h1><b>Linear Algeba With Python</b>
+              </h1>
+              <h1 style="margin-top: -40px;">
+                <span style="font-size: 0.5em;">An Analytical
+                  and Computational Visual Guide</span>
+              </h1>
+
+              <p class="hide-small author"
+                style="margin-top: -30px;">Weijie Chen <br>
+                <!-- 2019 - -->
+                Updated on
+                <script>
+                                    var currentDate = new Date();
+                                    var year = currentDate.getFullYear();
+                                    var month = currentDate.getMonth() + 1; // getMonth() returns 0 for January, so we add 1
+                                    document.write(year + '-' + (month < 10 ? '0' : '') + month);
+                                </script>
+
+                <br>
+                <span class="dark-mode-button"
+                  id="dark-mode-toggle">
+                  <i class="fa-regular fa-sun"></i>
+                </span>
+              </p>
+
+              <p class="hide-large hide-medium author"
+                style="font-size:16px">Weijie Chen<br>
+                <script>
+                                    var currentDate = new Date();
+                                    var year = currentDate.getFullYear();
+                                    var month = currentDate.getMonth() + 1; // getMonth() returns 0 for January, so we add 1
+                                    document.write(year + '-' + (month < 10 ? '0' : '') + month);
+                                </script>
+                <br>
+                <span class="dark-mode-button"
+                  id="dark-mode-toggle">
+                  <i class="fa-regular fa-sun"></i>
+                </span>
+              </p>
+              <br>
+
+            </div>
+
+          </div>
+
+        </header>
+
+        <hr>
+
+        <main>
+              <article>
+
+              <!-- <div class="language-link">
+                              <a href="es.html">- Español -</a>
+                          </div> -->
+
+                <p> <i>Linear Algebra with Python</i> is designed to
+                  provide a comprehensive
+                  refresher on the essential concepts of linear
+                  algebra, tailored for professionals and students in
+                  fields such as statistics, econometrics,
+                  quantitative analysis, and data science. Whether
+                  you're a seasoned expert or someone looking to
+                  solidify your foundational knowledge, this guide
+                  offers an in-depth exploration of critical topics in
+                  linear algebra, enriched with Python-based
+                  computation and visualization.</p>
+
+                <p>Throughout this book, we will delve into key concepts
+                  that are pivotal for advanced quantitative skill
+                  sets, including linear combinations, vector spaces,
+                  linear transformations, eigenvalues and
+                  eigenvectors, diagonalization, singular value
+                  decomposition, and more. Each concept is carefully
+                  explained and demonstrated with Python, making
+                  abstract ideas more concrete and applicable to
+                  real-world scenarios.</p>
+
+              <p>Ready to get started? Skip ahead to the <a
+                  href="content/table_of_contents.html">Table of
+                  Contents.</a>
+              </p>
+
+              <hr>
+
+              <h2 style="text-align: center;">WHAT IT IS ABOUT</h2>
+
+            <div
+              style=" text-wrap: wrap; display: flex; justify-content: center;">
+              <div style="padding: 0 5px;">
+                <a target="_blank"
+                  href="https://www.geogebra.org">
+                  <strong>GeoGebra</strong></a>
+                &nbsp;-&nbsp;
+                <a target="_blank" href="https://p5js.org/">
+                  <strong>p5.js</strong></a>
+                &nbsp;-&nbsp;
+                <a target="_blank" href="https://cindyjs.org/">
+                  <strong>Cindy.js</strong>
+                </a>
+                &nbsp;-&nbsp;
+                <a target="_blank" href="https://mathcell.org/">
+                  <strong>MathCell.js</strong>
+                </a>
+              </div>
+            </div>
+
+            <hr>
+
+            <h2 style="text-align: center;">ISSUES?</h2>
+            <p>If you come across any applets that aren't working as
+              they should, examples that could use a clearer
+              explanation, or even just a typo, I'd really
+              appreciate it if you could let me know.
+
+              Feel free to report any issues to project's GitHub repository
+              <a
+                href="https://github.com/weijie-chen/Linear-Algebra-With-Python/issues">
+              </a>
+            </p>
+
+            <hr>
+
+            <h2 style="text-align: center;">DESIGN CREDITS</h2>
+            <p>
+              The design of this site was inpired by the
+              fantastic book
+              <a
+                href="https://www.jeffreythompson.org/collision-detection/index.php"
+                target="_blank">Collision
+                Detection</a>
+              written by <a
+                href="https://www.jeffreythompson.org/"
+                target="_blank">Jeffrey Thompson</a>.
+              The current version, released in 2024, was built
+              thanks to the following projects:
+            </p>
+
+            <hr>
+
+            <h2 style="text-align: center;" id="support">SUPPORT
+              THIS PROJECT</h2>
+            <p>If you like my work, you can support it using the
+              links below:</p>
+
+            <div
+              style="text-wrap: wrap; display: flex; justify-content: center;">
+              <div style="padding: 0 15px;">
+                <i class="fa-brands fa-patreon"></i> <a
+                  href="https://www.patreon.com/jcponce">
+                  <strong>Patreon</strong></a>
+              </div>
+
+              <div style="padding: 0 15px;">
+                <i class="fa-brands fa-paypal"></i> <a
+                  href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=WTMTR7D8RYZ26&amp;item_name=Your+support+will+help+me+to+improve+and+keep+up+to+date+the+applets+of+this+book.+Sincerely+appreciate+it%21&amp;currency_code=AUD&amp;source=url">
+                  <strong>PayPal</strong></a>
+              </div>
+              <div style="padding: 0 15px;">
+                <i class="fa-solid fa-shop"></i> <a
+                  target="_blank"
+                  href="https://jcponcemath.secure-decoration.com/">
+                  <strong>T-shirts</strong>
+                </a>
+              </div>
+
+              <div style="padding: 0 15px;">
+                <i class="fa-brands fa-square-x-twitter"></i> <a
+                  target="_blank"
+                  href="https://twitter.com/share?ref_src=twsrc%5Etfw">
+                  <strong>Post</strong>
+                </a><script async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"></script>
+              </div>
+
+            </div>
+
+            <p style="text-align: center;">
+              Thank you for your support! ❤️
+            </p>
+
+            <hr>
+
+            <h2 style="text-align: center;">NAVIGATION</h2>
+            <p>OK, let's begin! Click the link at the bottom the
+              page, or the arrows at the top, to
+              move to the next chapter. The <strong>Complex
+                Analysis</strong> link at the top will
+              take you back to the <a
+                href="content/table_of_contents.html">Table of
+                Contents</a>.</p>
+
+          </article>
+        </main>
+
+        <a href="content/table_of_contents.html"
+          style="text-decoration: none;">
+          <p class="nextPage">Table of Contents <i
+              class="fa-solid fa-angles-right"></i></p>
+        </a>
+
+        <!-- Ends main content -->
+
+      </section>
+    </div>
+    <!-- Main DIV Ends here -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span><br />
+          <strong>👋 Hey there!</strong>
+        </div>
+        <div class="modal-body">
+
+          <p>
+            This interactive book is <strong>free for
+              everybody</strong>,
+            as I believe that everyone should have access to
+            high-quality learning
+            resources to explore and learn mathematics.
+            That's why many users choose to contribute to my
+            efforts.
+            If you believe in what I do and want to help me on my
+            journey,
+            you can do so now with the links below:
+          </p>
+
+          <div class="button-container">
+            <button id="modal-link">
+              <a href="https://www.patreon.com/jcponce"><i
+                  class="fa-brands fa-patreon"></i>
+                <strong>Patreon</strong></a>
+            </button>
+            <button id="modal-link">
+              <a target="_blank"
+                href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=WTMTR7D8RYZ26&item_name=Your+support+will+help+me+to+improve+and+keep+up+to+date+the+applets+of+this+book.+Sincerely+appreciate+it%21&currency_code=AUD&source=url">
+                <strong><i class="fa-brands fa-paypal"></i>
+                  PayPal</strong>
+              </a>
+            </button>
+            <button id="modal-link">
+              <a target="_blank"
+                href="https://jcponcemath.secure-decoration.com/">
+                <strong>Get a <i
+                    class="fa-solid fa-shirt"></i></strong>
+              </a>
+            </button>
+          </div>
+
+          <p>
+            Your contributions help me to maintain this site
+            and, crucially, <strong>ensure it remains freely
+              accessible</strong>
+            to anyone eager to explore this captivating field of
+            mathematics
+            <strong>—without any distracting ads</strong>.
+          </p>
+
+          <p>
+            You can't contribute this time, no worries! Maybe you
+            just want to
+            <i class="fa-solid fa-envelope"></i> <a
+              href="mailto:jcponcemath@gmail.com"><strong> Send a
+                comment</strong></a>
+          </p>
+          <br />
+        </div>
+        <div class="modal-footer">
+          Thank you! 🙏 I highly appreciate your support! 🤗
+        </div>
+      </div>
+
+    </div>
+    <!-- Button to Top -->
+    <button onclick="topFunction()" id="toTop" title="Go to top"><i
+        class="fa-solid fa-arrow-up"></i></button>
+
+    <hr>
+
+    <footer>
+
+      <span id="footer-elements">
+        <span style="font-weight: bold;">[</span>
+        <a href="../"><i class="fa-solid fa-house"></i> Home</a>,
+        <span class="hide-small">
+          <a href="https://github.com/complex-analysis"><i
+              class="fa-solid fa-code"></i> Source</a>,
+          <a
+            href="https://github.com/complex-analysis/complex-analysis.github.io/issues"><i
+              class="fa-solid fa-lightbulb"></i> Issues</a>,
+        </span>
+        <span id="donate-footer"
+          onclick="document.getElementById('myModal').style.display='block'">
+          <i class="fa-solid fa-heart"></i> Support</span>
+        <span style="font-weight: bold;">]</span>
+      </span>
+
+      <br />
+
+      <a id="licence-link" rel="license"
+        href="license.html">
+        <i class="fa-brands fa-creative-commons"></i>
+        <i class="fa-brands fa-creative-commons-by"></i>
+        <i class="fa-brands fa-creative-commons-nc"></i>
+        <i class="fa-brands fa-creative-commons-sa"></i>
+      </a>
+
+      <br />
+
+      <strong style="font-size: 0.9em;">ISBN: 978-0-6485736-0-9</strong>
+      <br>
+      <strong>
+        <span class="hide-small" style="font-size: 0.9em;">&copy; Juan
+          Carlos Ponce Campuzano
+          2019-<script>document.write(new Date().getFullYear());</script>
+        </span>
+        <span class="hide-medium hide-large"
+          style="font-size: 0.9em;">&copy; J.C. Ponce Campuzano
+          2019-<script>document.write(new Date().getFullYear());</script>
+        </span>
+      </strong>
+
+    </footer>
+    <script src="content/js/mathjax.js"></script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script src="content/js/scripts.js"></script>
+    <script async src="content/js/prism.js"></script>
+
+  </body>
+
+</html>

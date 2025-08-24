@@ -1,0 +1,41 @@
+name: Update README
+
+on: 
+  push:
+    branches:
+      - master  # This repo is using 'master' as the main branch name
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+
+      - name: Setup Python
+        uses: actions/setup-python@v5.1.1
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Update README.md
+        run: python scripts/update_readme.py
+
+      - name: Check if README.md has changed
+        id: readme_diff
+        run: |
+          git diff README.md || echo "README_CHANGED=true" >> $GITHUB_ENV
+
+      - name: Commit and push changes
+        if: env.README_CHANGED == 'true'
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m "Update README date and links"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

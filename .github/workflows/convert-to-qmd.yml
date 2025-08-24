@@ -1,0 +1,93 @@
+name: Convert Notebooks and Update Book
+
+on:
+  push:
+    paths:
+      - 'notebooks/**.ipynb'
+
+jobs:
+  convert-and-copy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Ensure the job has write permissions
+      issues: write  # Required for API calls to create and delete deploy keys
+
+    steps:
+    - name: Checkout the Linear_Algebra_with_Python repository
+      uses: actions/checkout@v4.1.7
+
+    - name: Install Quarto
+      run: |
+        wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.5.56/quarto-1.5.56-linux-amd64.tar.gz
+        tar -xvzf quarto-1.5.56-linux-amd64.tar.gz
+        sudo cp -r quarto-1.5.56/* /usr/local/
+
+    - name: Convert Notebooks to QMD
+      run: |
+        mkdir -p converted_chapters
+        for notebook in notebooks/*.ipynb; do
+          quarto convert "$notebook" -o "converted_chapters/$(basename "$notebook" .ipynb).qmd"
+        done
+
+    - name: Generate SSH Key
+      run: |
+        ssh-keygen -t rsa -b 4096 -C "actions@github.com" -f /tmp/github_actions -N ""
+        echo "::set-output name=ssh-public-key::$(cat /tmp/github_actions.pub)"
+
+    - name: Add SSH Key to the SSH Agent
+      run: |
+        eval "$(ssh-agent -s)"
+        ssh-add /tmp/github_actions
+    
+    - name: Debug SSH Key
+      run: ssh-add -l
+      
+
+    - name: Add Deploy Key to GitHub
+      id: add_deploy_key
+      run: |
+        curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        -H "Accept: application/vnd.github.v3+json" \
+        https://api.github.com/repos/weijie-chen/weijie-chen.github.io/keys \
+        -d "{\"title\":\"GitHub Actions Key\",\"key\":\"$(cat /tmp/github_actions.pub)\",\"read_only\":false}" \
+        -o deploy_key.json
+        echo "::set-output name=deploy-key-id::$(jq -r .id deploy_key.json)"
+
+    - name: Checkout the weijie-chen.github.io repository
+      uses: actions/checkout@v4.1.7
+      with:
+        repository: weijie-chen/weijie-chen.github.io
+        path: book_repo
+        ssh-key: /tmp/github_actions  # Use the dynamically generated SSH key
+
+    - name: Copy Converted QMD Files to Book Repository
+      run: |
+        mkdir -p book_repo/linear-algebra-with-python-book/chapters
+        cp converted_chapters/*.qmd book_repo/linear-algebra-with-python-book/chapters/
+
+    - name: Update Table of Contents in index.html
+      run: |
+        toc=""
+        for chapter in book_repo/linear-algebra-with-python-book/chapters/*.qmd; do
+          chapter_name=$(basename "$chapter" .qmd)
+          toc="$toc<li>$chapter_name</li>\n"
+        done
+        sed -i '/<section class="table-of-contents">/,/<\/section>/{//!d}' book_repo/linear-algebra-with-python-book/index.html
+        sed -i "/<section class=\"table-of-contents\">/a $toc" book_repo/linear-algebra-with-python-book/index.html
+
+    - name: Commit and Push Changes via SSH
+      run: |
+        cd book_repo
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add linear-algebra-with-python-book/chapters/*
+        git add linear-algebra-with-python-book/index.html
+        git commit -m "Updated chapters and Table of Contents"
+        git push git@github.com:weijie-chen/weijie-chen.github.io.git main
+
+    - name: Clean Up - Remove Deploy Key from GitHub
+      run: |
+        DEPLOY_KEY_ID=$(jq -r .id deploy_key.json)
+        curl -X DELETE -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        https://api.github.com/repos/weijie-chen/weijie-chen.github.io/keys/$DEPLOY_KEY_ID
